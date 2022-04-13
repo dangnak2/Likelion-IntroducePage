@@ -17,7 +17,6 @@ const footText = document.querySelector('.footer-text');
     document.querySelector('.social-img').style.filter = 'invert(100%)';
     document.querySelector('.myhobby-sport').style.filter = 'invert(100%)';
     document.querySelector('.myhobby-wardrobe').style.filter = 'invert(100%)';
-    
   } else {
     toggleText.innerText = 'Day';
     background.style.backgroundColor = 'white';
