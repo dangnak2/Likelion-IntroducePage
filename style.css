@@ -1,10 +1,23 @@
-.title-wrap{
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    height: 100%;
+}
+
+.title-container{
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
      padding-bottom: 30px;
      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
      padding-top: 30px;
      margin-bottom: 20px;
+}
+
+.form-check form-switch{
+    position: absolute;
+    padding-left: 2000px;
 }
 
 .body-wrap{
@@ -18,11 +31,17 @@
     text-align: center;
     font-weight: bold;
     font-size: 25px;
+    color: black;
 }
 
 .face-img{
     border-radius: 50%;
-    margin-bottom: 20px;
+}
+
+.btn-group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
 }
 
 .social-img{
@@ -31,20 +50,36 @@
 
 .main-wrap{
     margin-top: 20px;
+    padding-bottom: 20px;
+    align-content: flex-end;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .main-container{
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
 .information-text{
     text-align: left;
     font-weight: bold;
     font-size: 30px;
+    color: black;
 }
 
-.myhobby-text{
+.myhobby-sport{
     padding-right: 100px;
+}
+
+.footer-wrap{
+    margin-top: 70px;
+    height: 250px;
+ 
+}
+
+.footer-text{
+    font-weight: bold;
+    text-align: center;
 }
